@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="theme-color" content="#b2e8ed" />
+    <meta name="description" content="Proyek — M. Baihaqi Alawi." />
+    <title>Proyek — M. Baihaqi Alawi</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="assets/images/projects-kingdom-wallpaper.webp" />
+    <link data-page-style rel="stylesheet" href="assets/css/projects.css" />
+    <script src="assets/js/core/navigation.js" defer></script>
+    <script src="assets/js/core/confirm-sfx.js" defer></script>
+  </head>
+  <body>
+    <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <symbol id="project-crown" viewBox="0 0 40 34">
+          <path d="M4 5 13 16 20 2 27 16 36 5 31 29Q20 33 9 29Z" fill="currentColor" />
+        </symbol>
+      </defs>
+    </svg>
+    <main class="projects-screen" aria-label="Proyek M. Baihaqi Alawi">
+      <img
+        class="projects-wallpaper"
+        src="assets/images/projects-kingdom-wallpaper.webp"
+        alt=""
+        aria-hidden="true"
+        fetchpriority="high"
+      />
+      <canvas class="projects-wallpaper-canvas" aria-hidden="true"></canvas>
+      <div class="projects-wallpaper-effects" aria-hidden="true">
+        <div class="projects-light-bloom"></div>
+        <div class="projects-particles"></div>
+      </div>
+      <div class="menu-rail" aria-hidden="true"></div>
+      <div class="right-rule" aria-hidden="true"></div>
+      <a class="return-link" href="index.html" aria-label="Kembali ke menu"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M10 3h4l-.7 11h-2.6L10 3Z" fill="currentColor" />
+          <circle cx="12" cy="18.5" r="1.8" fill="currentColor" /></svg
+      ></a>
+      <h1 class="project-label">PROYEK</h1>
+      <nav class="project-menu" aria-label="Pilih proyek">
+        <ul id="project-list"></ul>
+        <noscript>
+          <ul>
+            <li>
+              <a
+                class="project-item"
+                href="https://alawibro.github.io/coba-hp-web/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="project-item-title">Coba HP Web</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="project-item"
+                href="https://alawibro.github.io/hp-web-coba/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="project-item-title">HP Web Coba</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="project-item"
+                href="https://alawibro.github.io/hp-mykisah-wkwkwk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="project-item-title">HP My Kisah</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="project-item"
+                href="https://alawibro.github.io/khusus-web-pc-laptop/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="project-item-title">Khusus Web PC Laptop</span></a
+              >
+            </li>
+          </ul>
+        </noscript>
+        <span class="selection-spark project-menu-spark" aria-hidden="true"></span>
+      </nav>
+      <div class="menu-caption" aria-live="polite" aria-atomic="true">
+        <p id="project-caption">
+          <span class="project-category"></span>
+          <span class="project-description"></span>
+        </p>
+      </div>
+    </main>
+    <template id="project-item-template">
+      <li>
+        <button class="project-item" type="button">
+          <span class="project-item-title"></span
+          ><svg class="selection-crown" aria-hidden="true"><use href="#project-crown" /></svg>
+        </button>
+      </li>
+    </template>
+    <audio id="menu-sfx" src="assets/audio/menu-sfx.mp3" preload="auto"></audio>
+    <audio id="confirm-sfx" src="assets/audio/confirm-sfx.mp3" preload="auto"></audio>
+    <audio id="back-sfx" src="assets/audio/back-sfx.mp3" preload="auto"></audio>
+  </body>
+</html>
