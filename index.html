@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="theme-color" content="#fafafa" />
+    <meta
+      name="description"
+      content="Portfolio personal M. Baihaqi Alawi dalam pengalaman title screen interaktif."
+    />
+    <title>M. Baihaqi Alawi — Portfolio</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="assets/images/portfolio-wallpaper.webp" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/images/kingdom-hearts-logo.webp"
+      type="image/webp"
+    />
+    <link data-page-style rel="stylesheet" href="assets/css/menu.css" />
+    <script src="assets/js/core/navigation.js" defer></script>
+    <script src="assets/js/core/confirm-sfx.js" defer></script>
+  </head>
+  <body>
+    <main class="title-screen" id="title-screen">
+      <img
+        class="wallpaper-image"
+        src="assets/images/portfolio-wallpaper.webp"
+        alt=""
+        fetchpriority="high"
+      />
+
+      <header class="identity" aria-label="Portfolio M. Baihaqi Alawi">
+        <div class="identity__wordmark">
+          <img
+            class="identity__heart"
+            src="assets/images/kingdom-hearts-logo.webp"
+            alt=""
+            aria-hidden="true"
+          />
+          <h1>M. Baihaqi Alawi</h1>
+          <span class="identity__rule" aria-hidden="true"><i></i><b>✦</b><i></i></span>
+          <p class="identity__tag">PORTFOLIO</p>
+        </div>
+      </header>
+
+      <nav class="main-menu" aria-label="Menu portfolio">
+        <ul class="menu-list">
+          <li>
+            <button
+              class="menu-item is-active"
+              type="button"
+              data-menu="projects"
+              aria-current="true"
+            >
+              <span class="menu-item__spark" aria-hidden="true"></span
+              ><span class="menu-item__label">PROJECTS</span>
+            </button>
+          </li>
+          <li>
+            <button class="menu-item" type="button" data-menu="skills">
+              <span class="menu-item__spark" aria-hidden="true"></span
+              ><span class="menu-item__label">SKILLS</span>
+            </button>
+          </li>
+          <li>
+            <button class="menu-item" type="button" data-menu="about">
+              <span class="menu-item__spark" aria-hidden="true"></span
+              ><span class="menu-item__label">ABOUT ME</span>
+            </button>
+          </li>
+          <li>
+            <button class="menu-item" type="button" data-menu="contact">
+              <span class="menu-item__spark" aria-hidden="true"></span
+              ><span class="menu-item__label">CONTACT</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="menu-caption-strip" id="menu-caption-strip" aria-live="polite">
+        <p class="menu-caption-strip__text" id="menu-caption-text">
+          Explore personal works, applications, and featured projects.
+        </p>
+      </div>
+
+      <audio id="menu-sfx" src="assets/audio/menu-sfx.mp3" preload="auto"></audio>
+      <audio id="confirm-sfx" src="assets/audio/confirm-sfx.mp3" preload="auto"></audio>
+      <audio id="back-sfx" src="assets/audio/back-sfx.mp3" preload="auto"></audio>
+    </main>
+  </body>
+</html>
