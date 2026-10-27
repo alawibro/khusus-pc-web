@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="theme-color" content="#e9e9e9" />
+    <meta name="description" content="Skills — M. Baihaqi Alawi." />
+    <title>Skills — M. Baihaqi Alawi</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="assets/images/skills-kingdom-wallpaper.webp" />
+    <link data-page-style rel="stylesheet" href="assets/css/skills.css" />
+    <script src="assets/js/core/navigation.js" defer></script>
+    <script src="assets/js/core/confirm-sfx.js" defer></script>
+  </head>
+  <body>
+    <main class="skills-screen" aria-label="Skills M. Baihaqi Alawi">
+      <img
+        class="skills-wallpaper"
+        src="assets/images/skills-kingdom-wallpaper.webp"
+        alt=""
+        aria-hidden="true"
+        fetchpriority="high"
+      />
+      <canvas class="skills-wallpaper-canvas" aria-hidden="true"></canvas>
+      <div class="skills-wallpaper-effects" aria-hidden="true">
+        <div class="skills-light-bloom"></div>
+        <div class="skills-light-rays"></div>
+        <div class="skills-particles"></div>
+      </div>
+      <div class="skills-rail" aria-hidden="true"></div>
+      <a class="skills-back" href="index.html" aria-label="Kembali ke menu"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M12 7v6M6 13h12M6 13v4M18 13v4"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linejoin="round"
+          />
+          <path
+            d="m12 2 3 3-3 3-3-3Zm-6 14 3 3-3 3-3-3Zm12 0 3 3-3 3-3-3Z"
+            fill="currentColor"
+          /></svg
+      ></a>
+      <p class="skills-rail-label">SKILLS</p>
+      <section class="skills-content">
+        <header class="skills-heading">
+          <p>M. BAIHAQI ALAWI</p>
+          <h1>SKILLS</h1>
+        </header>
+        <div class="skills-layout">
+          <div
+            class="skills-tabs"
+            role="tablist"
+            aria-label="Kategori skill"
+            aria-orientation="vertical"
+          ></div>
+          <section
+            class="skills-panel"
+            id="skills-panel"
+            role="tabpanel"
+            tabindex="0"
+            aria-labelledby="skill-category-heading"
+          >
+            <h2 id="skill-category-heading"></h2>
+            <div class="skills-rows"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <audio id="menu-sfx" src="assets/audio/menu-sfx.mp3" preload="auto"></audio>
+    <audio id="confirm-sfx" src="assets/audio/confirm-sfx.mp3" preload="auto"></audio>
+    <audio id="back-sfx" src="assets/audio/back-sfx.mp3" preload="auto"></audio>
+  </body>
+</html>
