@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="theme-color" content="#fafafa" />
+    <meta name="description" content="About Me — M. Baihaqi Alawi." />
+    <title>About Me — M. Baihaqi Alawi</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="assets/images/about-profile.webp" />
+    <link rel="preload" as="image" href="assets/images/portfolio-wallpaper.webp" />
+    <link data-page-style rel="stylesheet" href="assets/css/about.css" />
+    <script src="assets/js/core/navigation.js" defer></script>
+    <script src="assets/js/core/confirm-sfx.js" defer></script>
+  </head>
+  <body>
+    <main class="about-screen" aria-labelledby="about-title" tabindex="-1">
+      <img
+        class="wallpaper-image"
+        src="assets/images/portfolio-wallpaper.webp"
+        alt=""
+        aria-hidden="true"
+        fetchpriority="high"
+      />
+      <section class="about-panel">
+        <header class="about-header"><h1 id="about-title">About Me</h1></header>
+        <div class="about-content">
+          <figure class="about-photo">
+            <img
+              src="assets/images/about-profile.webp"
+              alt="Gambar profil M. Baihaqi Alawi"
+              width="1024"
+              height="1024"
+              fetchpriority="high"
+            />
+          </figure>
+          <article class="about-biography" aria-labelledby="about-name">
+            <h2 id="about-name">M. Baihaqi Alawi</h2>
+            <p>
+              Saya Seorang Murid Sekolah Raden Paku Yang Berfokus Jaringan dan Server Tipis Tipis.
+            </p>
+            <p>
+              Saya Suka Ekperimen Seputar Web Dan Suka Pecut AI.
+            </p>
+          </article>
+        </div>
+        <div class="about-bottom-rule" aria-hidden="true"></div>
+      </section>
+    </main>
+    <audio id="menu-sfx" src="assets/audio/menu-sfx.mp3" preload="auto"></audio>
+    <audio id="confirm-sfx" src="assets/audio/confirm-sfx.mp3" preload="auto"></audio>
+    <audio id="back-sfx" src="assets/audio/back-sfx.mp3" preload="auto"></audio>
+  </body>
+</html>
