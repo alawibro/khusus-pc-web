@@ -69,6 +69,14 @@ window.registerPortfolioPage('projects', () => {
         'Halaman pengenalan Ironman versi PC dengan video pembuka, bagian fitur, dan FAQ.',
       url: 'https://alawibro.github.io/Ironman-versi-pc/',
     },
+    {
+      id: 'dukun-khusus-pc',
+      title: 'Dukun Khusus PC',
+      category: 'Pengalaman Interaktif',
+      description:
+        'Halaman Dukun, studio ritual daring fiktif dengan nuansa spiritual tradisional yang dikemas gaya modern.',
+      url: 'https://alawibro.github.io/Dukun-Khusus-PC/',
+    },
   ];
 
   const isValidProject = (project) => {
