@@ -61,6 +61,14 @@ window.registerPortfolioPage('projects', () => {
         'Pemilih persona retrowave dengan lima karakter 3D dan transisi spin-swap di atas panggung synthwave.',
       url: 'https://alawibro.github.io/3d-WEB-Hero-pc/',
     },
+    {
+      id: 'ironman-versi-pc',
+      title: 'Ironman Versi PC',
+      category: 'Pengalaman Video',
+      description:
+        'Halaman pengenalan Ironman versi PC dengan video pembuka, bagian fitur, dan FAQ.',
+      url: 'https://alawibro.github.io/Ironman-versi-pc/',
+    },
   ];
 
   const isValidProject = (project) => {
