@@ -53,6 +53,14 @@ window.registerPortfolioPage('projects', () => {
         'Portofolio pribadi lengkap dengan menu bagian, bio, daftar repository GitHub, tautan sosial, dan form kontak.',
       url: 'https://alawibro.github.io/khusus-web-pc-laptop/',
     },
+    {
+      id: '3d-web-hero-pc',
+      title: '3D Web Hero PC',
+      category: 'Pengalaman 3D',
+      description:
+        'Pemilih persona retrowave dengan lima karakter 3D dan transisi spin-swap di atas panggung synthwave.',
+      url: 'https://alawibro.github.io/3d-WEB-Hero-pc/',
+    },
   ];
 
   const isValidProject = (project) => {
