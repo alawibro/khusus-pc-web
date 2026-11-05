@@ -77,6 +77,13 @@ window.registerPortfolioPage('projects', () => {
         'Halaman Dukun, studio ritual daring fiktif dengan nuansa spiritual tradisional yang dikemas gaya modern.',
       url: 'https://alawibro.github.io/Dukun-Khusus-PC/',
     },
+    {
+      id: 'pc-gabut',
+      title: 'PC Gabut',
+      category: 'Sketchbook',
+      description: 'Halaman sketchbook M. Baihaqi Alawi.',
+      url: 'https://alawibro.github.io/pc-gabut/',
+    },
   ];
 
   const isValidProject = (project) => {
