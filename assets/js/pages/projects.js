@@ -84,6 +84,14 @@ window.registerPortfolioPage('projects', () => {
       description: 'Halaman sketchbook M. Baihaqi Alawi.',
       url: 'https://alawibro.github.io/pc-gabut/',
     },
+    {
+      id: 'black-clover',
+      title: 'Black Clover',
+      category: 'Replika Game',
+      description:
+        'Portofolio bergaya menu jeda Persona 3 Reload, bertema Black Clover.',
+      url: 'https://alawibro.github.io/black-clover/',
+    },
   ];
 
   const isValidProject = (project) => {
